@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import style from "./recipe.module.css";
 
-const Recipe = ({title, calories, image, ingredients}) => {
+const Recipe = ({ title, calories, image, ingredients }) => {
     return (
         <div className={style.recipe}>
-            <img className={style.image} src={image} alt=""/>
+            <img className={style.image} src={image} alt="" />
             <h1>{title}</h1>
             <p>Calories : {Math.floor(calories)} cal</p>
             <ol>
@@ -13,8 +13,7 @@ const Recipe = ({title, calories, image, ingredients}) => {
                 ))}
             </ol>
         </div>
-    )
-}
+    );
+};
 
 export default Recipe;
-
