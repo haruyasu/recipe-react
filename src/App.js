@@ -97,7 +97,7 @@ const App = () => {
                 <input
                     className="search-bar"
                     type="text"
-                    placeholder="You can search any food"
+                    placeholder="You can search any food!"
                     value={search}
                     onChange={updateSearch}
                 />
